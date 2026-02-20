@@ -637,7 +637,7 @@ export default function App() {
                   <Bot size={22} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg leading-none mb-1 uppercase tracking-tighter">
+                  <h3 className="font-bold text-lg leading-none mb-1 tracking-tighter">
                     askMe
                   </h3>
                   <div className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest opacity-80">
@@ -678,7 +678,7 @@ export default function App() {
                 <input
                   value={inputValue}
                   onChange={(e) => setInputValue(e.target.value)}
-                  placeholder="Type a message..."
+                  placeholder="How can we help?"
                   className="w-full bg-slate-50 border-2 border-blue-600/30 rounded-full py-3.5 pl-6 pr-14 text-sm font-medium focus:outline-none focus:border-blue-600 focus:bg-white transition-all shadow-inner"
                 />
                 <button
